@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    padding:0;
+    min-height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    position:relative;
+}
+
+h1{
+    text-align: center;
+    font-family: "HelveticaNeue", sans-serif;    
+    font-weight: lighter;
+}
+h2{
+    text-align:center;
+    font-family: "HelveticaNeue", sans-serif;    
+    font-weight: lighter;
+    
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-img{
+    float:right;
+    display: inline-block;
+    margin-right: 15%;
+}
+
+nav{
+    padding-bottom: 5vh;
+}
+
+#nav_menu{
+    float:right;
+    margin-right: 3vw;
+    margin-top: 1.5vw;
+}
+
+#nav_icon{
+    float: left;
+    display: inline;
+    margin-left: 4.5vw;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding;
+    overflow:hidden;
+    text-align: right;
+}
+
+nav li{
+    float: left;
+    font-family: "HelveticaNeue", "Arial", sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    height: 2em;
+    padding: 1vw;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #606060;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:active, a:hover{
+    color: #7BBBFF;
+}
+
+header{
+    clear:both; /* clears out float attributes from nav*/
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+    font-family: sans-serif;
+    margin-bottom: 6vh;
+    margin-left:15%;
+    margin-right:15%;
+}
+.description{
+    width:40%;
+}
+
+
+
+.flex_container{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    justify-content: center;
+    /*background-color: pink;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex_col{
+    width: 50%;
+}
+
+.img_text_container{
+    position: relative;;
+    text-align: center;
+    color: purple;
+}
+
+.flex_item{
+    width: 95%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: 1px solid black;
+}
+
+.img_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.flex_item:hover{
+    opacity: 80%;
+    filter: brightness(70%);
+}
+footer{
+    text-decoration: underline;
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:5em;
+    background: grey;
+}
+.ftext{
+    color: white;
+}
+
+#illustrations{
+    height: 300vh;
+}
+
+#designs{
+    height: 250vh;
+}
+
+
+
