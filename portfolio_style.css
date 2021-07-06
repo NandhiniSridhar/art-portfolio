@@ -117,7 +117,7 @@ p{
 .img_text_container{
     position: relative;;
     text-align: center;
-    color: purple;
+    color: white;
 }
 
 .flex_item{
@@ -130,6 +130,7 @@ p{
 }
 
 .img_text{
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -137,7 +138,10 @@ p{
 
 .flex_item:hover{
     opacity: 80%;
-    filter: brightness(70%);
+    filter: brightness(45%);
+}
+.flex_item:hover + .img_text{
+    display:inline;
 }
 footer{
     text-decoration: underline;

@@ -1,10 +1,10 @@
 "use strict";
 //alert("Hello World!");
 //alert(3+1+2);
-let name;
+let Name;
 let admin;
 
 //name = "John";
-admin = name;
+admin = Name;
 //alert(admin);
 //alert(1/0);
