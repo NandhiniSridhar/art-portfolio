@@ -132,8 +132,11 @@ p{
 .img_text{
     display: none;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    font-family: "HelveticaNeue", sans-serif; 
+    font-size: 0.7em;
 }
 
 .flex_item:hover{
