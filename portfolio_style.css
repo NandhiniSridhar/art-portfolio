@@ -52,7 +52,7 @@ nav{
 nav ul{
     list-style-type: none;
     margin:0;
-    padding;
+    /*padding;*/
     overflow:hidden;
     text-align: right;
 }
@@ -164,6 +164,10 @@ footer{
 
 #designs{
     height: 250vh;
+}
+
+.expandedImage{
+    width:300px;
 }
 
 

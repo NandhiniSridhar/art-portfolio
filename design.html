@@ -4,6 +4,7 @@
     <head>
         <meta charset = "utf-8"><!-- include viewport meta info later -->
         <link rel = "stylesheet" href = "portfolio_style.css"/>
+        <script src="index.js"></script>
         <title>Designs</title>
     </head>
     
@@ -38,7 +39,7 @@
         </div> -->
         
          <!-- Section for Print design- flexbox grid of flyers and logos -->
-        <section class = "flex_container" id = "designs">
+        <!-- <section class = "flex_container" id = "designs">
            <div class = "flex_col">
                 <img src = "competition_flyer_port.png" class = "flex_item">
                 <img src = "fundraiser_flyer_port.png" class = "flex_item">
@@ -47,6 +48,49 @@
                 <img src = "classes_flyer_port.png" class = "flex_item">
                 <img src = "wc_casual_port.png" class = "flex_item">
                 <img src = "wc_formal_port.png" class = "flex_item">
+            </div>
+        </section> -->
+
+        <section class = "flex_container" id = "designs">
+            <div class = "flex_col">
+                <a href= ExpandedImage.html>
+                <div class = "img_text_container" id="competition">
+                    <img src = "competition_flyer_port.png" class = "flex_item" onclick = "expandOnClick('competition')">
+                    <div class = "img_text">Competition Flyer<br>A flyer for a competition organized by a few local organizations.</div>
+                </div>
+                </a>
+
+                <a href= ExpandedImage.html>
+                <div class = "img_text_container" id="fundraiser">
+                    <img src = "fundraiser_flyer_port.png" class = "flex_item" onclick = "expandOnClick('fundraiser')">
+                    <div class = "img_text">A STUDY IN COLOR<br>A flyer for a club fundraiser</div>
+                </div>
+                </a>
+
+            </div>
+        
+            <div class = "flex_col">
+                <a href= ExpandedImage.html>
+                <div class = "img_text_container" id="classes">
+                    <img src = "classes_flyer_port.png" class = "flex_item" onclick = "expandOnClick('classes')">
+                    <div class = "img_text">Classes Flyer<br>A flyer advertising classes organized by a local tutoring business</div>
+                </div>
+                </a>
+
+                <a href= ExpandedImage.html>
+                <div class = "img_text_container" id="wc_casual_port">
+                    <img src = "wc_casual_port.png" class = "flex_item" onclick = "expandOnClick('wc_casual_port')">
+                    <div class = "img_text">Writers Circle Casual Logo<br>An artistic logo for a club. Initial request was for two different logos: one artistic and one formal.</div>
+                </div>
+                </a>
+
+                <a href= ExpandedImage.html>
+                <div class = "img_text_container" id="wc_formal_port"> 
+                    <img src = "wc_formal_port.png" class = "flex_item" onclick = "expandOnClick('wc_formal_port')">
+                    <div class = "img_text">Writers Circle Formal Logo<br>A formal logo for a club. Initial request was for two different logos: one artistic and one formal.</div>
+                </div>
+                </a>
+
             </div>
         </section>
         
