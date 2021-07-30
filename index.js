@@ -15,8 +15,8 @@ function expandOnClick(pic){
     if(typeof(Storage) != "undefined"){
         //console.log(x.item(0));
         //console.log(x.item(1).firstChild);
-        console.log(x.item(0).getAttributeNames());
-        console.log(x.item(0).getAttribute("src"));
+        //console.log(x.item(0).getAttributeNames());
+        //console.log(x.item(0).getAttribute("src"));
         
         localStorage.setItem("picture", x.item(0).getAttribute("src"));
         localStorage.setItem("description", x.item(1).innerHTML);
